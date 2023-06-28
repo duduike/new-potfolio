@@ -1,11 +1,12 @@
 import './globals.scss'
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Poppins({ subsets: ['latin'], weight: ['400', '500', '600'] })
 
 export const metadata = {
   title: 'Eduardo Pina',
   description: 'Eduardo Pina is a Front-End Developer',
+  keywords:'developer frontend reactjs javascript nextjs nodejs serverless'
 }
 
 export default function RootLayout({

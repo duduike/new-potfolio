@@ -1,0 +1,16 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        text-align: center;
+        font-size: 1.125rem;
+        font-weight: 300;
+
+        color: var(--text-secondary);
+        
+        @media (min-width: 768px) {
+            text-align: start;
+        }
+    }
+}
